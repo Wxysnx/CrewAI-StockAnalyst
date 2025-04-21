@@ -23,6 +23,8 @@ SEC EDGAR数据分析: 自动分析公司的10-K和10-Q报告
 投资顾问 (Investment Advisor): 综合前两位分析师的见解，形成投资建议
 
 工作流程如下:
+
+```mermaid
 flowchart TD
     A[用户输入股票代码] --> B[CrewAI Agents]
     B --> C[网络搜索获取市场数据]
@@ -36,6 +38,7 @@ flowchart TD
     %% 设置节点样式
     classDef default fill:#f0f0ff,stroke:#aaaaff,color:#333,rx:5,ry:5
     class A,B,C,D,E,F,G default
+```
 
 
 项目特点
